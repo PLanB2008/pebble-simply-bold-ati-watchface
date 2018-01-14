@@ -1,0 +1,103 @@
+{
+  "name": "Simply Bold ATi",
+  "author": "Andreas Till",
+  "version": "1.1.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "Simply Bold ATi",
+    "uuid": "cb332373-4ee5-4c5c-8912-4f62af2d756c",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "capabilities": [
+      "configurable",
+      "health"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "CfgKeyTemperature",
+      "CfgKeyCelsiusTemperature",
+      "CfgKeyConditions",
+      "CfgKeyWeatherError",
+      "CfgKeyWeatherMode",
+      "CfgKeyUseCelsius",
+      "CfgKeyWeatherLocation",
+      "CfgKeyLanguage",
+      "CfgKeyEuropeanDate",
+      "CfgKeyHourlyVibe",
+      "CfgKeyVibeOnDisconnect",
+      "CfgKeyVibeOnConnect",
+      "CfgKeyBackgroundColour",
+      "CfgKeyTextColour",
+      "CfgKeyTimeTextColour",
+      "CfgKeyDateTextColour",
+      "CfgKeyTemperatureTextColour",
+      "CfgKeyConditionTextColour",
+      "CfgKeyInvertColours",
+      "CfgKeyShowSeconds",
+      "CfgKeyLeadingZero",
+      "CfgKeyMiddleBarMode",
+      "CfgKeyEnableHealth",
+      "CfgKeyUseAutomaticStepGoal",
+      "CfgKeyManualStepGoal",
+      "CfgKeyUseNightMode",
+      "CfgKeyNightModeStart",
+      "CfgKeyNightModeEnd",
+      "CfgKeyNightBackgroundColour",
+      "CfgKeyNightTextColour"
+    ],
+    "resources": {
+      "media": [
+        {
+          "characterRegex": "[0-9:A-Za-z° ]",
+          "file": "fonts/bebas.ttf",
+          "name": "FONT_SQUARE_55",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9:A-Za-z° ]",
+          "file": "fonts/bebas.ttf",
+          "name": "FONT_SQUARE_30",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9:A-Za-z° ]",
+          "file": "fonts/bebas.ttf",
+          "name": "FONT_SQUARE_26",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9:A-Za-z° ]",
+          "file": "fonts/Square.ttf",
+          "name": "FONT_SQUARE_14",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9:A-Za-z° ]",
+          "file": "fonts/Ubuntu-Bold.ttf",
+          "name": "FONT_SQUARE_28",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9:A-Za-z°äöüÜÄÖß ]",
+          "file": "fonts/Ubuntu-Bold.ttf",
+          "name": "FONT_BEBAS_18",
+          "type": "font"
+        }
+      ]
+    }
+  }
+}
